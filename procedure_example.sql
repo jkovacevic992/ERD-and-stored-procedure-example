@@ -1,5 +1,5 @@
 select * from pacijent;
-drop procedure if exists select_ic;
+drop procedure if exists select_ime;
 delimiter $$
 create procedure select_ime(IN ime_pacijenta varchar(50))
 begin
